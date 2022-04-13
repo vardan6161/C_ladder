@@ -1,2 +1,2 @@
 # C_ladder
-A small Compiler for C language, made in C language
+Just as one climbs ladder step by step, we have shown work of a C compiler till Intermediate Code Generation phase using lex and yacc codes.
