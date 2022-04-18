@@ -2064,7 +2064,7 @@ void display()
 int main()
 {
 	int scan, slcline=0, mlc=0, mlcline=0, dq=0, dqline=0;
-	yyin = fopen("test.c","r");
+	yyin = fopen("test2.c","r");
 	printf("\n\n");
 	scan = yylex();
 	while(scan)
