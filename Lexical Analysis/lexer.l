@@ -246,10 +246,10 @@ void display()
    	return;
 }
 
-int main()
+int main(int argc, char *argv[])
 {
 	int scan, slcline=0, mlc=0, mlcline=0, dq=0, dqline=0;
-	yyin = fopen("test2.c","r");
+	yyin = fopen(argv[1],"r");
 	printf("\n\n");
 	scan = yylex();
 	while(scan)
