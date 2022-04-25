@@ -1,17 +1,15 @@
+
 #include<stdio.h>
-int square(int a, int b)
+
+void myfunc(int a)
 {
-	int b = 2;
-	return b;
+    return a;
 }
 
-int main()
+void main()
 {
-	int num = 2;
-	int num2;
-	square(num,num);
-	
-	//printf("Square of %d is %d", num, square2(5));
+    int i,n;
 
-	return 0;
+    myfunc(i);
+    
 }

@@ -1,14 +1,22 @@
+//for loop
+//while loop
+
 #include<stdio.h>
 
 int main()
 {
-	int a = 2;
-	printf("%d",a);
-	a++;
-	int b = 4;
-	int c = 3; 
-	
-	//int b = 8;
-	//int c = 3;
-	a--;
+    int a=0;
+    for (a = 0; a < 10; a++)
+        {
+        	printf("H1");
+        }
+    
+    while(a>0) {
+        a--;
+    }
+
+    while(a<10)
+    {
+        a++;
+    }
 }

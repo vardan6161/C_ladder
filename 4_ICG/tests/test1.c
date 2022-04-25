@@ -1,12 +1,25 @@
-#include <stdio.h>
+#include<stdio.h>
 
-void main()
+int main()
 {
-	int i,n;
+	int a = 5;
+	while(a>0)
+	{
+		printf("Hello world");
+		a--;
+	}
 
-	
-		do
+	a=4;
+	while(a>0)
+	{
+		printf("%d",a);
+		a--;
+		int b;
+		b= 4;
+		while(b>0)
 		{
-			printf("hi");
-		}while(i<n);
+			printf("%d", b);
+			b--;
+		}
+	}
 }

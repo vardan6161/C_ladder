@@ -1,24 +1,14 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int myfunc(int a,int b)
+int main()
 {
-	return a+b;
-}
-
-void main()
-{
-	int a,b,i;
-
-	while(a<3)
-	{
-		a = a+b;
-		for(i=0;i<b;i++)
-		{
-			b++;
-			myfunc(a,b);
-
-		}
-		a++;
-	}
+	int a = 2;
+	printf("%d",a);
+	a++;
+	int b = 4;
+	int c = 3; 
 	
+	//int b = 8;
+	//int c = 3;
+	a--;
 }

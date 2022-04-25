@@ -1,5 +1,9 @@
-#include <stdio.h>
-int main()
+#include<stdio.h>
+
+void main()
 {
-	int 9abi = 10;
+    int i,n;
+
+    myfunc(i);
+    
 }

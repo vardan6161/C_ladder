@@ -2,8 +2,7 @@
 
 void main()
 {
-    int i,n;
-
-    myfunc(i);
-    
+    int i=3,n=6;
+    float a=0.0;
+    a = i+n;
 }
